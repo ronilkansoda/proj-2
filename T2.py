@@ -42,3 +42,9 @@ print(cars)
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist = [x for x in fruits if "a" in x]
 print(newlist)
+
+# For the problem to initialized a Git repository in a parent folder (Python)
+# unintentionally, and now i want to exclude certain subfolders from being tracked. 
+
+# apply this to the parent folder (Python)
+# ans -> Remove-Item -Recurse -Force .git
