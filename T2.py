@@ -20,8 +20,8 @@ l2.reverse()
 print(l2)
 
 l3 = list(('Ford', 'Mitsubishi', 'BMW', 'VW'))
-# l3.sort(reverse=True)
-# print(l3)
+l3.sort(reverse=True)
+print(l3)
 
 def func(e):
     return len(e)
